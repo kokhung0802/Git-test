@@ -1,1 +1,1 @@
-# Heart-Disease_Prediction-App
+# Diabetes-Prediction-App

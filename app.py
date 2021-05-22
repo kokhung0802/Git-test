@@ -70,6 +70,3 @@ def predict():
 
     return render_template('index.html', display_pred=display_pred, pred_prob=pred_prob)
 
-
-if __name__ == "__main__":
-    app.run()

@@ -31,12 +31,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/dataset')
-def dataset():
-    df = pd.read_csv('data/test.csv')
-    return render_template('dataset.html', df_table=df)
-
-
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method == 'POST':
